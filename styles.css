@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+     font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.html-icon {
+    font-size: 30px;
+    color: lightseagreen;
+}
+
+.dots {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.dots-icon{
+    color: lightseagreen;
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.likes-text{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.lorem-text {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: left;
+}
+
+.heart-icon {
+    color: #b00e09;
+    cursor: pointer;
+}
+
+.heart-icon:hover{
+    color:  red;
+}
+
+.comment-icon {
+    color: darkslateblue;
+    cursor: pointer;
+}
+
+.comment-icon:hover {
+    color: #3880eb;
+}
+
+.paper-plane {
+    color: #2c9e67;
+    cursor: pointer;
+}
+
+.paper-plane:hover{
+    color:#38eb94;
+}
+
+.book-mark{
+    color:#3880eb;
+    cursor: pointer;
+}
